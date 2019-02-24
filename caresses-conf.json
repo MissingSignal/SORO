@@ -1,0 +1,27 @@
+{
+  "Pepper-conf": {
+    "IP": "130.251.13.130",
+    "Port": "9559",
+    "Password": "caressespro"
+  },
+  "CAHRIM-conf": {
+    "IP": "localhost",
+    "Port": "12345"
+  },
+  "CKB-conf": {
+    "IP": "localhost",
+    "Port": "12346"
+  },
+  "CSPEM-conf": {
+    "IP": "localhost",
+    "Port": "12347"
+  },
+  "CAHRIM-database": {
+    "user": "",
+    "password": "",
+    "host": "<IP-COMPUTER-RUNNING-MYSQL>",
+    "database": "",
+    "layout": ""
+  },
+  "interaction-node": ""
+}

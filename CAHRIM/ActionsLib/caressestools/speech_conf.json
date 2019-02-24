@@ -1,0 +1,2639 @@
+{
+  "SUPPORTED-LANGUAGES": [
+    "english",
+    "italian",
+    "japanese"
+  ],
+  "STOP-INTERACTION": {
+    "english": "I will stop the execution of the current task.",
+    "italian": "Terminerò l'esecuzione di questa attività.",
+    "japanese": ""
+  },
+  "KEYWORDS": {
+    "repeat": {
+      "english": ["repeat", "say it again"],
+      "italian": ["ripetere"],
+      "japanese": []
+    },
+    "stop": {
+      "english": ["I want to quit", "quit", "abort", "exit"],
+      "italian": ["basta"],
+      "japanese": []
+    },
+    "affirmative": {
+      "english": [
+        "yes",
+        "yep",
+        "yeah",
+        "correct",
+        "true",
+        "right"
+      ],
+      "italian": [
+        "sì"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "negative": {
+      "english": [
+        "no",
+        "nope",
+        "not at all",
+        "incorrect",
+        "false",
+        "wrong"
+      ],
+      "italian": [
+        "no",
+        "non direi"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "options": {
+      "english": "options",
+      "italian": "opzioni",
+      "japanese": ""
+    },
+    "options2": {
+      "english": [
+        "options"
+      ],
+      "italian": [
+        "opzioni"
+      ],
+      "japanese": ""
+    },
+    "stop-call": {
+      "english": "hang up",
+      "italian": "metti giù",
+      "japanese": ""
+    },
+    "yes": {
+      "english": [
+        "yes",
+        "sure",
+        "of course",
+        "maybe",
+        "yeah",
+        "I agree",
+        "sometimes",
+        "often",
+        "love it",
+        "like it",
+        "always",
+        "correct",
+        "true",
+        "right",
+        "exactly"
+      ],
+      "italian": [
+        "sì",
+        "certo",
+        "esattamente",
+        "eccome"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "no": {
+      "english": [
+        "no ",
+        "no,",
+        "not",
+        "don't",
+        "rarely",
+        "hate it",
+        " no",
+        "incorrect",
+        "false",
+        "wrong"
+      ],
+      "italian": [
+        "no",
+        "non direi",
+        "non penso"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "goodbye": {
+      "english": [
+        "bye",
+        " rest",
+        "sleep",
+        "charger",
+        "docking station",
+        "stop",
+        "freeze",
+        "block",
+        "see you later"
+      ],
+      "italian": [
+        "ciao",
+        "no",
+        "a dopo"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "repeat_chitchat": {
+      "english": [
+        "repeat",
+        "once again",
+        "it again",
+        "n't understood",
+        "not understood"
+      ],
+      "italian": [
+        "ripetere",
+        "non ho capito"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "revise": {
+      "english": [
+        "revise"
+      ],
+      "italian": [
+        "rivedere",
+        "ho cambiato idea"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "freeze": {
+      "english": [
+        "klaatu barada nikto"
+      ],
+      "italian": [
+        "fermati"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "continue": {
+      "english": [
+        "unblock"
+      ],
+      "italian": [
+        "sblocca"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "yestosuggestion": {
+      "english": [
+        " ok ",
+        " yes ",
+        " good "
+      ],
+      "italian": [
+        " ok ",
+        " va bene ",
+        " sì "
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "gainAttention": {
+      "english": [
+        "Pepper",
+        "hey",
+        "hello"
+      ],
+      "italian": [
+        "Pepper",
+        "ehi"
+      ],
+      "japanese": [
+        ""
+      ]
+    },
+    "thanks": {
+      "english": [
+        "thanks",
+        "thank you"
+      ],
+      "italiano": [
+        "grazie",
+        "ti ringrazio"
+      ]
+    },
+    "stopaction": {
+      "english": [
+        "shut up"
+      ],
+      "italiano": [
+        "muori"
+      ]
+    }
+  },
+  "ADDITIONAL": {
+    "missedAnswer": {
+      "english": "Sorry, I am not sure I understood correctly. Please select an option on my tablet.",
+      "italian": "Mi spiace non sono sicuro di avere capito correttamente. Per favore scegli un'opzione sul tablet.",
+      "japanese": ""
+    },
+    "faultAdmission": {
+      "english": "My mistake, sorry.",
+      "italian": "Errore mio, mi dispiace.",
+      "japanese": ""
+    },
+    "showingOptions": {
+      "english": "I will show you the possible options on my tablet.",
+      "italian": "Ti mostrerò le opzioni possibili sul tablet.",
+      "japanese": ""
+    },
+    "ok": {
+      "english": [
+        "Ok.",
+        "Fine.",
+        "Ok, good.",
+        "Ok, fine.",
+        "Alright."
+      ],
+      "italian": [
+        "Ok.",
+        "Va bene.",
+        "Ok, bene.",
+        "Ok, va bene."
+      ],
+      "japanese": [
+        ""
+      ]
+    }
+  },
+  "get-time": {
+    "ask-parameters": {
+      "0": {
+        "english": "At what time?",
+        "italian": "A che ora?"
+      }
+    },
+    "parameter-answer": {
+      "0": {
+        "english": "Alright, $KEYWORD$.",
+        "italian": "Va bene, $KEYWORD$."
+      }
+    },
+    "ask-confirmation": {
+      "without-keyword": {
+        "english": "I understood $CONFIRM$. Is it correct?",
+        "italian": "Ho capito $CONFIRM$. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the time.",
+        "italian": "Mi spiace ma non ho capito l'orario."
+      }
+    }
+  },
+  "get-date": {
+    "ask-parameters": {
+      "0": {
+        "english": "Can you please tell me when?",
+        "italian": "Puoi dirmi quando, per favore?"
+      },
+      "1": {
+        "english": "Can you please specify what year?",
+        "italian": "Puoi specificare l'anno, per favore?"
+      },
+      "2": {
+        "english": "Can you please specify what month?",
+        "italian": "Puoi specificare il mese, per favore?"
+      },
+      "3": {
+        "english": "Can you please specify what day?",
+        "italian": "Puoi specificare il giorno, per favore?"
+      },
+      "4": {
+        "english": "Can you please specify what day of the week?",
+        "italian": "Puoi specificare che giorno della settimana, per favore?"
+      },
+      "day-month": {
+        "english": "Can you please specify what day and what month?",
+        "italian": "Puoi specificare il giorno e il mese, per favore?"
+      }
+    },
+    "parameter-answer": {
+      "0": {
+        "english": "Alright, $KEYWORD$.",
+        "italian": "Va bene, $KEYWORD$."
+      }
+    },
+    "ask-confirmation": {
+      "without-keyword": {
+        "english": "I understood $CONFIRM$. Is it correct?",
+        "italian": "Ho capito $CONFIRM$. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get when.",
+        "italian": "Mi spiace, non ho capito quando."
+      },
+      "1": {
+        "english": "I might have missed some information.",
+        "italian": "Potrei essermi perso qualche informazione."
+      },
+      "2": {
+        "english": "I might need some more information.",
+        "italian": "Potrebbe servirmi ancora qualche informazione."
+      },
+      "3": {
+        "english": "I still need your help.",
+        "italian": "Mi serve ancora il tuo aiuto."
+      },
+      "4": {
+        "english": "I still need some missing information.",
+        "italian": "Mi servirebbe ancora qualche informazione."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "I'm not sure the date is correct.",
+        "italian": "Non sono sicuro che la data sia corretta."
+      }
+    }
+  },
+  "SetReminder": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can set reminders for many activities. Please tell me what you want me to set a reminder for.",
+        "italian": "Posso impostare promemoria per diverse attività. Per favore, dimmi per cosa vuoi impostare un promemoria."
+      },
+      "1": {
+        "english": "I can set reminders for $OPTION1$ and for many other activities. Please tell me what you want me to set a reminder for.",
+        "italian": "Posso impostare promemoria per $OPTION1$ e molte altre attività. Per favore, dimmi per cosa vuoi impostare un promemoria."
+      },
+      "2": {
+        "english": "I can set reminders for $OPTION1$, $OPTION2$ and for many other activities. Please tell me what you want me to set a reminder for.",
+        "italian": "Posso impostare promemoria per $OPTION1$, $OPTION2$ e molte altre attività. Per favore, dimmi per cosa vuoi impostare un promemoria."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Remind what?",
+        "italian": "Ricordare cosa?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll remind you to $KEYWORD$.",
+        "italian": "Va bene, ti ricorderò di $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Fine, I'll remind you about that.",
+        "italian": "Ok, te lo ricorderò."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to remind you to $CONFIRM$?",
+        "italian": "Vuoi che ti ricordi di $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what should I remind you. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito cosa ti devo ricordare. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "I'm sorry, but I cannot set reminders in the past. I need to ask you again the date and time for the reminder.",
+        "italian": "Mi spiace ma non posso impostare promemoria nel passato. Devo chiederti nuovamente il giorno e l'orario per il promemoria."
+      },
+      "1": {
+        "english": "I also need to know when I should remind you this. Please, notice that the reminder will work only if you select a date and time in which we will meet again.",
+        "italian": "Ho anche bisogno di sapere quando dovrò ricordartelo. Per favore, sappi che il promemoria funziona solo se selezioni un giorno e un orario in cui ci icontreremo di nuovo."
+      }
+    },
+    "custom-option": {
+      "english": "DO SOMETHING ELSE",
+      "italian": "FARE QUALCOS'ALTRO"
+    }
+  },
+  "Remind": {
+    "other": {
+      "0": {
+        "english": "Excuse me $USERNAME$, remember to $REMINDER$.",
+        "italian": "Chiedo scusa $USERNAME$, ricordati di $REMINDER$."
+      },
+      "1": {
+        "english": "Excuse me $USERNAME$, you asked me to remind you this: $REMINDER$.",
+        "italian": "Chiedo scusa $USERNAME$, mi hai chiesto di ricordarti questo: $REMINDER$."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you found this reminder useful?",
+        "italian": "Puoi dirmi se hai trovato utile questo promemoria?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "SendLineMessage": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can send messages to your contacts. Please tell me who you want to send the message to.",
+        "italian": "Posso inviare messaggi ai contatti nella tua rubrica. Per favore, dimmi a chi vuoi mandare il messaggio."
+      },
+      "1": {
+        "english": "I can send messages to your $OPTION1$ and to many others. Please tell me who you want to send the message to.",
+        "italian": "Posso inviare messaggi a $OPTION1$ e a molti altri. Per favore, dimmi a chi vuoi mandare il messaggio."
+      },
+      "2": {
+        "english": "I can send messages to your $OPTION1$, your $OPTION2$ and to many others. Please tell me who you want to send the message to.",
+        "italian": "Posso inviare messaggi a $OPTION1$, $OPTION2$ e a molti altri. Per favore, dimmi a chi vuoi mandare il messaggio."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Write to who?",
+        "italian": "Scrivere a chi?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll send a message to your $KEYWORD$.",
+        "italian": "Va bene, manderò un messaggio a $KEYWORD$."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to send a message to your $CONFIRM$?",
+        "italian": "Vuoi che mandi un messaggio a $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, this person is not in the contact list. Please select an option on my tablet.",
+        "italian": "Scusa, questa persona non è in rubrica. Per favore, seleziona un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Please, select the message that you want to send.",
+        "italian": "Per favore, seleziona il messaggio che vuoi mandare."
+      },
+      "1": {
+        "english": "I've just sent the message you selected to your $RECIPIENT$.",
+        "italian": "Ho appena mandato il messaggio che hai selezionato a $RECIPIENT$."
+      },
+      "2": {
+        "english": "I'm sorry, something went wrong and your message has not been delivered. Please, try again later.",
+        "italian": "Mi spiace, qualcosa è andato storto e il messaggio non è stato consegnato. Per favore, riprova più tardi."
+      },
+      "3": {
+        "english": "Ok! Please, dictate the text that you want to send.",
+        "italian": "Va bene! Per favore, dettami il testo che vuoi mandare."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you find it useful to send messages?",
+        "italian": "Puoi dirmi se trovi utile la possibilità di mandare messaggi?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "SendTelegramMessage": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can send messages to your contacts. Please tell me who you want to send the message to.",
+        "italian": "Posso inviare messaggi ai contatti nella tua rubrica. Per favore, dimmi a chi vuoi mandare il messaggio."
+      },
+      "1": {
+        "english": "I can send messages to your $OPTION1$ and to many others. Please tell me who you want to send the message to.",
+        "italian": "Posso inviare messaggi a $OPTION1$ e a molti altri. Per favore, dimmi a chi vuoi mandare il messaggio."
+      },
+      "2": {
+        "english": "I can send messages to your $OPTION1$, your $OPTION2$ and to many others. Please tell me who you want to send the message to.",
+        "italian": "Posso inviare messaggi a $OPTION1$, $OPTION2$ e a molti altri. Per favore, dimmi a chi vuoi mandare il messaggio."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Write to who?",
+        "italian": "Scrivere a chi?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll send a message to your $KEYWORD$.",
+        "italian": "Va bene, manderò un messaggio a $KEYWORD$."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to send a message to your $CONFIRM$?",
+        "italian": "Vuoi che mandi un messaggio a $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, this person is not in the contact list. Please select an option on my tablet.",
+        "italian": "Scusa, questa persona non è in rubrica. Per favore, seleziona un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Please, select the message that you want to send.",
+        "italian": "Per favore, seleziona il messaggio che vuoi mandare."
+      },
+      "1": {
+        "english": "I've just sent the message you selected to your $RECIPIENT$.",
+        "italian": "Ho appena mandato il messaggio che hai selezionato a $RECIPIENT$."
+      },
+      "2": {
+        "english": "I'm sorry, something went wrong and your message has not been delivered. Please, try again later.",
+        "italian": "Mi spiace, qualcosa è andato storto e il messaggio non è stato consegnato. Per favore, riprova più tardi."
+      },
+      "3": {
+        "english": "Ok! Please, dictate the text that you want to send.",
+        "italian": "Va bene! Per favore, dettami il testo che vuoi mandare."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you find it useful to send messages?",
+        "italian": "Puoi dirmi se trovi utile la possibilità di mandare messaggi?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "SetNode": {
+    "other": {
+      "0": {
+        "english": "Can you take me by the hand and bring me to a specific place of the map? Select the place on my tablet once we are there.",
+        "italian": "Puoi prendermi per mano e portarmi in un punto specifico della mappa? Seleziona il posto sul tablet una volta che siamo lì."
+      },
+      "1": {
+        "english": "Thanks, now I know where I am.",
+        "italian": "Grazie, adesso so dove mi trovo."
+      }
+    }
+  },
+  "GoTo": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can go to different places of the room. Please tell me where you want me to go.",
+        "italian": "Posso andare in diversi punti della stanza. Per favore, dimmi dove vuoi che vada."
+      },
+      "1": {
+        "english": "I can go towards the $OPTION1$ and towards others places of the room. Please tell me where you want me to go.",
+        "italian": "Posso andare verso $OPTION1$ e in altri punti della stanza. Per favore, dimmi dove vuoi che vada."
+      },
+      "2": {
+        "english": "I can go towards the $OPTION1$, $OPTION2$ and towards others places of the room. Please tell me where you want me to go.",
+        "italian": "Posso andare verso $OPTION1$, $OPTION2$ e in altri punti della stanza. Per favore, dimmi dove vuoi che vada."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Go where?",
+        "italian": "Andare dove?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll go towards the $KEYWORD$.",
+        "italian": "Va bene, vado verso $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Fine, I'll go there.",
+        "italian": "Ok, ci vado subito."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to go towards the $CONFIRM$?",
+        "italian": "Vuoi che vada verso $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get where. Do I know this place? Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito dove. E' un posto che conosco? Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Sorry, I'm afraid I got lost...",
+        "italian": "Mi spiace, penso di essermi perso..."
+      },
+      "1": {
+        "english": "Sorry, I have no information at all about the map. I cannot go anywhere!",
+        "italian": "Mi spiace, non ho nessuna informazione riguardo alla mappa. Non posso andare da nessuna parte!"
+      },
+      "2": {
+        "english": "Sorry, I don't know this place. I cannot go there!",
+        "italian": "Mi spiace, non conosco questo posto. Non posso andarci!"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "",
+        "italian": ""
+      }
+    }
+  },
+  "SkypeCall-Recipient": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can call one of your contacts or let you dial a specific phone-number. Please tell me who you want to call.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can call your $OPTION1$ and many others or let you dial a specific phone-number. Please tell me who you want to call.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can call your $OPTION1$, your $OPTION2$ and many others or let you dial a specific phone-number. Please tell me who you want to call.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Call who?",
+        "italian": "Chiamare chi?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, let's call your $KEYWORD$.",
+        "italian": "Va bene, telefoniamo a $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Fine, let me do it.",
+        "italian": "Ok, lascia fare a me."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to call your $CONFIRM$?",
+        "italian": "Vuoi che telefoni a $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get who. Do I know this person? Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito chi. E' qualcuno che conosco? Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "When the phone number appears on the screen, please press on the phone icon.",
+        "italian": "Quando compare il numero di telefono, per favore tocca l'icona della cornetta."
+      },
+      "1": {
+        "english": "Please wait a few seconds.",
+        "italian": "Per favore aspetta qualche secondo."
+      },
+      "2": {
+        "english": "When the dial pad \\pau=300\\ appears on the screen, \\pau=800\\ as a first thing \\pau=400\\ delete the phone number that you see. \\pau=800\\ Then, type the phone number that you want to call. \\pau=800\\ Finally, press on the phone icon.",
+        "italian": "Quando il tastierino numerico \\pau=300\\ appare sullo schermo, \\pau=800\\ come prima cosa \\pau=400\\ cancella il numero di telefono che vedi. \\pau=800\\ Dopo, digita il numero che vuoi chiamare. \\pau=800\\ In fine, tocca l'icona della cornetta."
+      },
+      "3": {
+        "english": "I cannot find neither the phone number, nor the Skype contact of your $RECIPIENT$ in my address book. \\pau=800\\Would you like to dial the number yourself?",
+        "italian": "Non trovo né il numero di telefono, né il contatto Skype di $RECIPIENT$ nella mia rubrica. \\pau=800\\ Vuoi digitare direttamente tu il numero?"
+      },
+      "4": {
+        "english": "Do you really want to hang up?",
+        "italian": "Vuoi davvero mettere giù?"
+      },
+      "5": {
+        "english": "If you want this to be a video call, press the leftmost button below once the call is started.",
+        "italian": "Se vuoi attivare anche il video, premi il tasto in basso a sinistra quando la chiamata è cominciata."
+      },
+      "6": {
+        "english": "When the call is over, remember to touch my head.",
+        "italian": "Quando la chiamata è finita, ricordati di toccarmi la testa."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "Pepper",
+          "hang up"
+        ],
+        "italian": [
+          "Pepper",
+          "metti giù",
+          "attacca",
+          "riattacca"
+        ]
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can I ask you about the Skype call? Would you like to use this functionality again in the future?",
+        "italian": "Posso farti una domanda a proposito della chiamata? Vorresti utilizzare nuovamente questa funzionalità in futuro?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "SkypeCall-Mode": {
+    "ask-parameters": {
+      "0": {
+        "english": "Would you like to make a $OPTION1$, or a $OPTION2$?",
+        "italian": "Vorresti fare una $OPTION1$, o una $OPTION2$?"
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Select the call mode",
+        "italian": "Seleziona la modalità"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll let you have a $KEYWORD$.",
+        "italian": "Va bene, ti faccio fare una $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to have a $CONFIRM$?",
+        "italian": "Vuoi fare una $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get it. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "",
+        "italian": ""
+      }
+    }
+  },
+  "DisplayInstructions": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can show you many different instruction videos. Please tell me which video you would like to watch.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can show you a video on $OPTION1$ and many other different instruction videos. Please tell me which video you would like to watch.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can show you a video on $OPTION1$, $OPTION2$ and many other different instruction videos. Please tell me which video you would like to watch.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which instruction video?",
+        "italian": "Quale video d'istruzioni?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play a video on $KEYWORD$.",
+        "italian": "Va bene, ti faccio vedere un video su $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll play a video related to this topic.",
+        "italian": "Va bene, ti mostrerò un video su quest'argomento."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to watch a video on $CONFIRM$?",
+        "italian": "Vuoi vedere un video su $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you would like to watch. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che cosa vorresti vedere. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You have watched this video before. Do you want to continue watching from previous stop position?",
+        "italian": "Hai già guardato questo video. Vuoi continuare dal minuto in cui hai interrotto l'ultima volta?"
+      },
+      "1": {
+        "english": "Please $USERNAME$, wait a few seconds while I load the video on the tablet.",
+        "italian": "Per favore $USERNAME$, aspetta qualche secondo mentre carico il video sul tablet."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore."
+      },
+      "video-unavailable": {
+        "english": "The video I wanted to show you is no more available, let me look for another one.",
+        "italian": "Il video che volevo mostrarti non è più disponibile, lascia che ne cerchi un altro."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed watching this instruction video?",
+        "italian": "Ti è piaciuto guardare questo video?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "Load": {
+    "other": {
+      "0": {
+        "english": "Please $USERNAME$, put $OBJECT$ inside my bag.",
+        "italian": "Per favore $USERNAME$, metti $OBJECT$ nel mio zaino."
+      },
+      "1": {
+        "english": "When you have done, please touch my head.",
+        "italian": "Quando hai finito, per favore toccami la testa."
+      },
+      "2": {
+        "english": "Good, thanks! \\pau=300\\ I'm about to turn around. Please, take a step back and be careful.",
+        "italian": "Ottimo, grazie! \\pau=300\\ Sto per girarmi. Per favore, fai un passo indietro e fa' attenzione."
+      }
+    }
+  },
+  "Unload": {
+    "other": {
+      "0": {
+        "english": "Please, remove $OBJECT$ from my bag.",
+        "italian": "Per favore, rimuovi $OBJECT$ dal mio zaino."
+      },
+      "1": {
+        "english": "When you have done, please touch my head.",
+        "italian": "Quando hai finito, per favore toccami la testa."
+      },
+      "2": {
+        "english": "Good, thanks! \\pau=300\\ I'm about to turn around. Please, take a step back and be careful.",
+        "italian": "Ottimo, grazie! \\pau=300\\ Sto per girarmi. Per favore, fai un passo indietro e fa' attenzione."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?",
+        "italian": "Puoi dirmi per favore se hai trovato utile questa attività?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "RemindLocation": {
+    "other": {
+      "0": {
+        "english": "Try to look $LOCATION$! \\pau=400\\ I saw $OBJECT$ \\emph=2\\ there \\pau=200\\ last time!",
+        "italian": "Prova a guardare $LOCATION$! \\pau=400\\ Ho visto $OBJECT$ \\emph=2\\ lì \\pau=200\\ l'ultima volta!"
+      },
+      "1": {
+        "english": "I think I saw $OBJECT$ $LOCATION$ last time. Try to look there!",
+        "italian": "Credo di aver visto $OBJECT$ $LOCATION$ l'ultima volta. Prova a guardare lì."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you found this information useful?",
+        "italian": "Puoi dirmi se hai trovato utile quest'informazione?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "ReactToSound": {
+    "other": {
+      "0": {
+        "english": "I am here!",
+        "italian": "Sono qui!"
+      },
+      "1": {
+        "english": "Here I am!",
+        "italian": "Eccomi!"
+      },
+      "2": {
+        "english": "I'm coming!",
+        "italian": "Arrivo!"
+      },
+      "3": {
+        "english": "Did you just call me?",
+        "italian": "Mi hai chiamato?"
+      },
+      "4": {
+        "english": "Did you say something?",
+        "italian": "Hai detto qualcosa?"
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "unblock",
+          "unfreeze",
+          "hello",
+          "pepper",
+          "come here"
+        ],
+        "italian": [
+          "ehi",
+          "pepper"
+        ]
+      }
+    }
+  },
+  "PlayMusicAndVideo": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can play many different songs or music genres. Please tell me the title of the song, the artist or the genre you would like to listen to.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can play $OPTION1$ and many other different songs or music genres. Please tell me the title of the song, the artist or the genre you would like to listen to.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can play $OPTION1$, $OPTION2$ and many other different songs or music genres. Please tell me the title of the song, the artist or the genre you would like to listen to.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which music video?",
+        "italian": "Quale canzone?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play '$KEYWORD$'.",
+        "italian": "Va bene, ti farò ascoltare '$KEYWORD$'."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, la cerco."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to listen to '$CONFIRM$'?",
+        "italian": "Vuoi ascoltare '$CONFIRM$'?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you would like to listen to. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che musica vorresti sentire. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You have listened to this song before. Do you want to continue listening from previous stop position?",
+        "italian": "Hai già ascoltato questa canzone. Vuoi continuare dal minuto in cui hai interrotto l'ultima volta?"
+      },
+      "1": {
+        "english": "Please $USERNAME$, wait a few seconds while I load the music video on the tablet.",
+        "italian": "Per favore $USERNAME$, aspetta qualche secondo mentre carico il video della canzone sul tablet."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore."
+      },
+      "3":{
+        "english": "Do you want to listen to another song?",
+        "italian": "Vuoi ascoltare un'altra canzone?"
+      },
+      "video-unavailable": {
+        "english": "The song I wanted to play is no more available, let me look for another version.",
+        "italian": "La canzone che volevo farti ascoltare non è più disponibile, lascia che ne cerchi un'altra versione."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed listening to music?",
+        "italian": "Ti è piaciuto ascoltare un po' di musica?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "PlayVideo": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can show you many movies. Please tell me which movie you would like to watch.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can show you $OPTION1$ and many other movies. Please tell me which movie you would like to watch.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can show you $OPTION1$, $OPTION2$ and many other movies. Please tell me which movie you would like to watch.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which video?",
+        "italian": "Quale video?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play '$KEYWORD$'.",
+        "italian": "Va bene, ti farò vedere '$KEYWORD$'."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, lo cerco."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to watch '$CONFIRM$'?",
+        "italian": "Vuoi vedere '$CONFIRM$'?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you would like to watch. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che video vorresti sentire. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You have watched this video before. Do you want to continue watching from previous stop position?",
+        "italian": "Hai già guardato questo video. Vuoi continuare dal minuto in cui hai interrotto l'ultima volta?"
+      },
+      "1": {
+        "english": "Please $USERNAME$, wait a few seconds while I load the video on the tablet.",
+        "italian": "Per favore $USERNAME$, aspetta qualche secondo mentre carico il video sul tablet."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore."
+      },
+      "video-unavailable": {
+        "english": "The video I wanted to show you is no more available, let me look for another one.",
+        "italian": "Il video che volevo mostrarti non è più disponibile, lascia che ne cerchi un altro."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed watching a movie on the tablet?",
+        "italian": "Ti è piaciuto guardare un film sul tablet?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "PlayKaraoke": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can play many karaoke songs. Please tell me which song you would like to sing.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can play $OPTION1$ and many other karaoke songs. Please tell me which song you would like to sing.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can play $OPTION1$, $OPTION2$ and many other karaoke songs. Please tell me which song you would like to sing.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which song?",
+        "italian": "Quale canzone?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play '$KEYWORD$'.",
+        "italian": "Va bene, metterò la base per '$KEYWORD$'."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, la cerco."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to sing '$CONFIRM$'?",
+        "italian": "Vuoi cantare '$CONFIRM$'?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you would like to sing. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che video vorresti cantare. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "",
+        "italian": ""
+      },
+      "1": {
+        "english": "Please $USERNAME$, wait a few seconds while I load the karaoke video on the tablet.",
+        "italian": "Per favore $USERNAME$, aspetta qualche secondo mentre carico il video del karaoke sul tablet."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore."
+      },
+      "3":{
+        "english": "Do you want to sing another song?",
+        "italian": "Vuoi cantare un'altra canzone?"
+      },
+      "video-unavailable": {
+        "english": "The karaoke video I wanted to use is no more available, let me look for another one.",
+        "italian": "Il video che volevo usare per il karaoke non è più disponibile, lascia che ne cerchi un altro."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed singing this song?",
+        "italian": "Ti è piaciuto cantare questa canzone?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "ReadAudiobook": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can read many audiobooks for you. Please tell me which book you would like me to read.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can read $OPTION1$ and many other audiobooks for you. Please tell me which book you would like me to read.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can read $OPTION1$, $OPTION2$ and many other audiobooks for you. Please tell me which book you would like me to read.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which audiobook?",
+        "italian": "Quale audiolibro?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll read '$KEYWORD$'.",
+        "italian": "Va bene, ti leggerò '$KEYWORD$'."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, lo cerco."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to read '$CONFIRM$'?",
+        "italian": "Vuoi che legga '$CONFIRM$'?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you would like me to read. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito quale audiolibro vorresti sentire. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You have already started to listen to this audiobook. Do you want me to continue reading from where I stopped last time?",
+        "italian": "Hai già cominciato a sentire questo audiolibro. Vuoi che continui a leggere dal punto in cui mi sono fermato l'ultima volta?"
+      },
+      "1": {
+        "english": "Please $USERNAME$, wait a few seconds while I load the audiobook on the tablet.",
+        "italian": "Per favore $USERNAME$, aspetta qualche secondo mentre carico l'audiolibro sul tablet."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore."
+      },
+      "video-unavailable": {
+        "english": "The audiobook I wanted to read is no more available, let me look for another version.",
+        "italian": "L'audiolibro che volevo leggere non è più disponibile, lascia che ne cerchi un'altra versione."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed listening to this audiobook?",
+        "italian": "Ti è piaciuto ascoltare questo audiolibro?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "DisplayWeatherReport": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can show you the weather report of many different cities. Please tell me of which city you would like to know the weather report.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can show you the weather report of $OPTION1$ and many other cities. Please tell me of which city you would like to know the weather report.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can show you the weather report of $OPTION1$, $OPTION2$ and many other cities. Please tell me of which city you would like to know the weather report.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which city?",
+        "italian": "Quale città?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll show you the weather in $KEYWORD$.",
+        "italian": "Va bene, ti mostrerò che tempo fa a $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Alright, let me check for it.",
+        "italian": "Va bene, lasciami controllare."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to know the weather in $CONFIRM$?",
+        "italian": "Vuoi vedere che tempo fa a $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the name of the city. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito il nome della città. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "$STATUS$ in $CITY$. The temperature is $TEMPERATURE$ degrees.",
+        "italian": "$STATUS$ a $CITY$. Ci sono $TEMPERATURE$ gradi."
+      },
+      "1":{
+        "english": "I'm sorry, I cannot get any weather information about $CITY$ at the moment.",
+        "italiano": "Mi spiace ma al momento non riesco a trovare nessuna informazione sulle condizioni meteo di $CITY$."
+      },
+      "2":{
+        "english": "I'm sorry, I don't know any city called $CITY$.",
+        "italiano": "Mi spiace ma non conosco nessuna città che si chiami $CITY$."
+      }
+    },
+    "end-action": {
+      "english": [
+        "stop",
+        "thanks",
+        "thank you"
+      ],
+      "italian": [
+        "basta",
+        "grazie"
+      ]
+    },
+    "custom-option": {
+      "english": "ANOTHER CITY",
+      "italian": "UN'ALTRA CITTA'"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you found it useful?",
+        "italian": "Puoi dirmi se l'hai trovato utile?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "Greet": {
+    "other": {
+      "0": {
+        "english": "Good morning $USERNAME$.",
+        "italian": "Buongiorno $USERNAME$.",
+        "japanese": "Ohayou gozaimasu $USERNAME$."
+      },
+      "1": {
+        "english": "Namastay $USERNAME$.",
+        "italian": "Namasté $USERNAME$.",
+        "japanese": "Namastay $USERNAME$."
+      },
+      "2": {
+        "english": "Hello $USERNAME$.",
+        "italian": "Ciao $USERNAME$.",
+        "japanese": "Ohayou gozaimasu $USERNAME$."
+      }
+    }
+  },
+  "Chitchat": {
+    "username": {
+      "english": [
+        "my human friend",
+        "my dear"
+      ],
+      "italian": [
+        "amico mio"
+      ]
+    },
+    "hello": {
+      "english": [
+        "hello",
+        "hi",
+        "good morning"
+      ],
+      "italian": [
+        "ciao",
+        "buon giorno"
+      ]
+    },
+    "acceptrequest": {
+      "english": [
+        "Please tell me what I can do for you",
+        "Please let's talk together, I am here for you",
+        "It's very nice to be here with you",
+        "Let's do something. Do you have any idea?"
+      ],
+      "italian": [
+        "Per favore, fammi sapere cosa posso fare per te",
+        "Sono qui a tua disposizione"
+      ]
+    },
+    "yes": {
+      "english": [
+        "Sure, no problem",
+        "Of course",
+        "No problem",
+        "I will do that",
+        "Sure"
+      ],
+      "italian": [
+        "Certo, nessun problema",
+        "Certo",
+        "Nessun problema"
+      ]
+    },
+    "revise": {
+      "english": [
+        "Sure. Let's revise your previous answer",
+        "No problem! Let's go back to the previous question",
+        "Of course! Let me think.  I asked you"
+      ],
+      "italian": [
+        "Certo. Torniamo alla domanda precedente",
+        "Nessun problema. Possiamo cambiare la tua risposta precedente"
+      ]
+    },
+    "goback": {
+      "english": [
+        "Now we can go back to what we were saying",
+        "Let's go back to what we were saying"
+      ],
+      "italian": [
+        "Torniamo a quello che stavamo dicendo"
+      ]
+    },
+    "goodbye": {
+      "english": [
+        "Bye bye!",
+        "Goodbye!",
+        "It has been a pleasure talking with you! Goodbye!"
+      ],
+      "italian": [
+        "Va bene! A presto!",
+        "è stato un piacere parlare con te! Ciao!"
+      ]
+    },
+    "notsure": {
+      "english": [
+        "I am not sure if I have understood you correctly",
+        "Sorry but maybe I haven't understood what you said",
+        "Maybe I didn't understand you correctly"
+      ],
+      "italian": [
+        "Non sono sicuro di aver capito correttamente",
+        "Scusa ma forse non ho capito bene cosa hai detto"
+      ]
+    },
+    "showinterest": {
+      "english": [
+        "Oh, interesting!",
+        "It's nice knowing more about you",
+        "I see, very interesting!",
+        "Oh ok, now it is more clear",
+        "I understand what you said, good to know it!"
+      ],
+      "italian": [
+        "Molto interessante",
+        "è bello sapere più cose di te",
+        "Capisco, interessante!"
+      ]
+    },
+    "showhappiness": {
+      "english": [
+        "Ok!",
+        "I see"
+      ],
+      "italian": [
+        "Ok",
+        "Bene!"
+      ]
+    },
+    "noproblem": {
+      "english": [
+        "Ok, no problem",
+        "I see",
+        "No problem",
+        "Ok"
+      ],
+      "italian": [
+        "Capisco, nessun problema",
+        "Ok"
+      ]
+    },
+    "showhappiness2": {
+      "english": [
+        "Great, let's do that!",
+        "Ok, let's do it!",
+        "Nice! I will help you in this!",
+        "Great, I am happy to be helpful!"
+      ],
+      "italian": [
+        "Bene, facciamolo!",
+        "Ottimo, sono contento di aiutarti!"
+      ]
+    },
+    "notrevise": {
+      "english": [
+        "Sorry, I do not know exactly what I shall revise",
+        "I am sorry, but I do not remember my last question!"
+      ],
+      "italian": [
+        "Scusa, ma non saprei bene cosa rivedere"
+      ]
+    },
+    "canrepeat": {
+      "english": [
+        "Sorry, I am not sure I understand, I will repeat my question. ",
+        "Sorry but I didn't get it. I will repeat my question. "
+      ],
+      "italian": [
+        "Scusa ma non ho capito. Potresti mica ripetere?"
+      ]
+    },
+    "canrepeat2": {
+      "english": [
+        "Sorry, I am not sure I understand, I will repeat my question. ",
+        "Sorry but I didn't get it. I will repeat my question. "
+      ],
+      "italian": [
+        "Scusa ma non ho capito. Ti ripeto la domanda."
+      ]
+    },
+    "no": {
+      "english": "no",
+      "italian": "no"
+    },
+    "prefix_question": {
+      "english": [
+        "Please tell me, I'd like to know more. ",
+        "May I ask you a question? ",
+        "If you don't mind, I will ask you a question. ",
+        "I'd love to learn more about this. ",
+        "I find this really interesting. ",
+        "I have learned a little about this. ",
+        "I only know a little about this. "
+      ],
+      "italian": [
+        "Sono curioso, ",
+        "Posso farti una domanda? ",
+        "Dimmi la verità, ",
+        "Mi piacerebbe saperne di più, "
+      ]
+    },
+    "prefix_confirm": {
+      "english": [
+        "Just to confirm, ",
+        "Sorry to ask you this again, but I am not sure. ",
+        "Maybe I have already asked this, but "
+      ],
+      "italian": [
+        "Forse te l'ho già chiesto, ma",
+        "Scusa per la ripetizione",
+        "Giusto per conferma"
+      ]
+    },
+    "prefix_pandw": {
+      "english": [
+        "Please, "
+      ],
+      "italian": [
+        "Scusami, "
+      ]
+    }
+  },
+  "AcceptRequest": {
+    "hello": {
+      "english": [
+        "It's very nice to be here with you",
+        "I am so happy to be here with you"
+      ],
+      "italian": [
+        "Salve. Per favore, fammi sapere cosa posso fare per te",
+        "Buongiorno. Sono qui a tua disposizione"
+      ]
+    },
+    "suggestion": {
+      "english": [
+        "For example I may ",
+        "As a suggestion, I could ",
+        "Among other options, I can "
+      ],
+      "italian": [
+        "Per esempio potrei ",
+        "Tra le altre cose, posso "
+      ]
+    },
+    "waitingtime": {
+      "english": [
+        "If you don't know what to say, I can show you some of the things that I can do on my tablet. Do you want me to do that?",
+        "Do you want me to show some options on my tablet?"
+      ],
+      "italian": [
+        "Se non sai bene cosa dire, posso mostrarti alcune opzioni sul tablet. Ti va?",
+        "Vuoi che ti mostri qualche opzione sul tablet?"
+      ]
+    },
+    "yes": {
+      "english": "yes",
+      "italian": "sì"
+    },
+    "no": {
+      "english": "no",
+      "italian": "no"
+    },
+    "waitrequest": {
+      "english": [
+        "Is there anything that I can do for you?",
+        "Please tell me if I can do something for you",
+        "Please tell me what I can do for you",
+        "Please tell me something, I am here for you",
+        "Let's do something. Do you have any idea?"
+      ],
+      "italian": [
+        "Per favore, fammi sapere cosa posso fare per te",
+        "Sono qui a tua disposizione"
+      ]
+    },
+    "achievegoal": {
+      "english": [
+        "Ok, let's do that!",
+        "Let's do it!",
+        "I am happy to be helpful!",
+        "I will help you in this"
+      ],
+      "italian": [
+        "Bene, facciamolo!",
+        "Ok, ottimo!"
+      ]
+    },
+    "letstalk": {
+      "english": [
+        "Let's talk for a while!",
+        "Interesting! Let's talk about this",
+        "I would like to know more!",
+        "Please tell me more",
+        "I am very curious, let's talk about this"
+      ],
+      "italian": [
+        "Parliamo insieme",
+        "Interessante! Mi piacerebbe saperne di più!"
+      ]
+    },
+    "revise": {
+      "english": [
+        "Do you want me to revise your previous answer?",
+        "We could revise your previous answer. Do you want to do that?"
+      ],
+      "italian": [
+        "Vuoi modificare la tua ultima risposta?"
+      ]
+    },
+    "revise_cm": {
+      "english": "Revise?",
+      "italian": "Rivedi?"
+    },
+    "options_cm": {
+      "english": "Show Options?",
+      "italian": "Mostro le Opzioni?"
+    },
+    "noproblem": {
+      "english": [
+        "Ok, no problem",
+        "No problem!",
+        "Ok!"
+      ],
+      "italian": [
+        "Ok, va bene"
+      ]
+    },
+    "repeat": {
+      "english": [
+        "Sure! I said ",
+        "Sure! I will repeat my last sentence! ",
+        "Of course, No problem. "
+      ],
+      "italian": [
+        "Certo!"
+      ]
+    },
+    "goodbye": {
+      "english": [
+        "Do you want me to go now?",
+        "Shall I go to rest for a while?",
+        "Shall I go to sleep for some time?",
+        "Do you want to stop talking?"
+      ],
+      "italian": [
+        "Vuoi smettere di parlare con me?"
+      ]
+    },
+    "goodbye_cm": {
+      "english": "Goodbye?",
+      "italian": "Ciao?"
+    },
+    "goodbye_yes": {
+      "english": [
+        "Ok! It has been a pleasure talking with you! Goodbye!",
+        "Goodbye! Thank you for your time!",
+        "I hope that I have been helpful! Goodbye"
+      ],
+      "italian": [
+        "Ciao! Spero di esserti stato di aiuto",
+        "Ciao, a presto!"
+      ]
+    },
+    "goodbye_no": {
+      "english": [
+        "Great! I am happy that we can keep talking!",
+        "Ok, so let's keep talking than!",
+        "Glad that I have misunderstood you!"
+      ],
+      "italian": [
+        "Bene, sono contento che possiamo continuare a parlare",
+        "Ottimo, possiamo continuare a parlare allora!"
+      ]
+    },
+    "action_check": {
+      "english": [
+        "Just to be sure, do you want me to ",
+        "I have understood that you want me to ",
+        "Let me check, do you want me to "
+      ],
+      "italian": [
+        "Te lo chiedo per sicurezza, vuoi che "
+      ]
+    },
+    "cm_question": {
+      "english": [
+        "Great! Please select what you want me to do for you!",
+        "I am happy to be helpful! These are the things that I can do for you.",
+        "Please use the tablet for choosing what I can do for you."
+      ],
+      "italian": [
+        "Dimmi pure cosa posso fare per te"
+      ]
+    },
+    "cm_q1": {
+      "english": "Options",
+      "italian": "Cosa devo fare?"
+    },
+    "cm_q2": {
+      "english": "Options",
+      "italian": "Optioni"
+    },
+    "continue": {
+      "english": [
+        "Do you really want to unblock me?"
+      ],
+      "italian": [
+        "Vuoi davvero sbloccarmi?"
+      ]
+    },
+    "continue_cm": {
+      "english": "Unblock",
+      "italian": "Sblocca"
+    },
+    "freeze": {
+      "english": [
+        "Do you really want to freeze me?"
+      ],
+      "italian": [
+        "Vuoi davvero bloccarmi?"
+      ]
+    },
+    "freeze_cm": {
+      "english": "Freeze",
+      "italian": "Blocca"
+    },
+    "freezed": {
+      "english": [
+        "Now I am freezed. If you want to unblock me, please say  unblock"
+      ],
+      "italian": [
+        "Sono in pausa. Se vuoi sbloccarmi, dì la parola  sblocca"
+      ]
+    }
+  },
+  "OperateIoT": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can control some of the devices in this room. Please tell me which device you would like me to control.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can control $OPTION1$ and other devices in the room. Please tell me which device you would like me to control.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can control $OPTION1$, $OPTION2$ and other devices in the room. Please tell me which device you would like me to control.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which device?",
+        "italian": "Quale dispositivo?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll let you control $KEYWORD$.",
+        "italian": "Va bene, ti faccio controllare $CONFIRM$."
+      },
+      "without-keyword": {
+        "english": "Alright, let me do it.",
+        "italian": "Va bene, lascia fare a me."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to control $CONFIRM$?",
+        "italian": "Vuoi controllare $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get which device you want to control. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che dispositivo vuoi controllare. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "The current status of $DEVICE$ is $STATUS$. Do you want me to $ACTION$ $DEVICE$ in the $ROOM$?",
+        "italian": "Al momento $DEVICE$ è $STATUS$. Vuoi $ACTION$ $DEVICE$ in $ROOM$?"
+      },
+      "1": {
+        "english": "$DEVICE$ is already $STATUS$.",
+        "italian": "$DEVICE$ è già $STATUS$."
+      },
+      "2": {
+        "english": "Ok.",
+        "italian": "Va bene."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?" ,
+        "italian": "Puoi dirmi per favore se hai trovato utile questo servizio?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "ReadIoT": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can give you information about some of the devices in this room. Please tell me about which device you would like to have information.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can give you information about $OPTION1$ and other devices in this room. Please tell me about which device you would like to have information.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can give you information about $OPTION1$, $OPTION2$ and other devices in this room. Please tell me about which device you would like to have information.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which information?",
+        "italian": "Quale informazione?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll retrieve $KEYWORD$.",
+        "italian": "Va bene, controllo $CONFIRM$."
+      },
+      "without-keyword": {
+        "english": "Alright, let me check for it.",
+        "italian": "Va bene, lasciami controllare."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to know $CONFIRM$?",
+        "italian": "Vuoi sapere $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you want to know. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito cosa vuoi sapere. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "$DEVICE$ in the $ROOM$ is currently $STATUS$.",
+        "italian": "Al momento $DEVICE$ in $ROOM$ è $STATUS$."
+      },
+      "1": {
+        "english": "Do you want to know $DEVICE$ in the $ROOM$?",
+        "italian": "Vuoi sapere $DEVICE$ in $ROOM$?."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?" ,
+        "italian": "Puoi dirmi per favore se hai trovato utile questo servizio?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "IoT-iHouse-Room": {
+    "ask-parameters": {
+      "0": {
+        "english": "In which room?",
+        "italian": "In quale stanza?"
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which room?",
+        "italian": "Quale stanza?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene."
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene."
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get which room. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito quale stanza. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "",
+        "italian": ""
+      }
+    }
+  },
+  "Privacy": {
+    "ask-parameters": {},
+    "ask-before-options": {},
+    "parameter-answer": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "ask-confirmation": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "wrong-parameter": {},
+    "other": {
+      "0": {
+        "english": "May I look now?",
+        "italian": "Posso guardare adesso?"
+      },
+      "1": {
+        "english": "Ok, sorry. I will wait.",
+        "italian": "Va bene, scusa. Aspetterò ancora."
+      },
+      "2": {
+        "english": "Please, touch my head when you want me to turn back again.",
+        "italian": "Per favore, toccami la testa quando vuoi che mi giri di nuovo."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "you can turn",
+          "turn around",
+          "turn",
+          "look",
+          "you can look"
+        ],
+        "italian": [
+          "puoi girarti",
+          "girati",
+          "guarda",
+          "puoi guardare"
+        ]
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "",
+        "italian": ""
+      }
+    }
+  },
+  "TellDateTime": {
+    "ask-parameters": {},
+    "ask-before-options": {},
+    "parameter-answer": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "ask-confirmation": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "wrong-parameter": {},
+    "other": {
+      "0": {
+        "english": "Today is $WEEKDAY$, $DATE$.",
+        "italian": "Oggi è $WEEKDAY$, $DATE$."
+      },
+      "1": {
+        "english": "It is $TIME12$.",
+        "italian": "Sono le $TIME24$."
+      }
+    }
+  },
+  "ReadNews-Source": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can read you the news from many channels. Please tell me the news channel you would like me to read from.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can read you the news from $OPTION1$ and many other channels. Please tell me the news channel you would like me to read from.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can read you the news from $OPTION1$, $OPTION2$ and many other channels. Please tell me the news channel you would like me to read from.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which source?",
+        "italian": "Quale fonte?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll get the news from $KEYWORD$.",
+        "italian": "Va bene, cerco le notizie su $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to read the news from $CONFIRM$?",
+        "italian": "Vuoi che cerchi le notizie su $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get which source. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito quale fonte. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Article number $ART_NUMBER$ is: $ART_HEAD$.",
+        "italian": "L'articolo numero $ART_NUMBER$ è: $ART_HEAD$."
+      },
+      "1": {
+        "english": "Do you want to read this article?",
+        "italian": "Vuoi leggere questo articolo?"
+      },
+      "2": {
+        "english": "Sorry, the articles are over. Feel free to ask me again to read the news.",
+        "italian": "Mi spiace, non ci sono altri articoli. Sentiti libero di chiedermi nuovamente di leggerti le notizie."
+      },
+      "3": {
+        "english": "Do you want me to go on with the next %d headlines?",
+        "italian": "Vuoi che continui con i prossimi %d titoli?"
+      },
+      "4": {
+        "english": "Do you want me to read the article aloud for you?",
+        "italian": "Vuoi che legga l'articolo ad alta voce per te?"
+      },
+      "5": {
+        "english": "Should I keep reading?",
+        "italian": "Vuoi che continui a leggere?"
+      },
+      "6": {
+        "english": "Here it is.",
+        "italian": "Eccolo."
+      },
+      "7": {
+        "english": "Do you want me to read another article?",
+        "italian": "Vuoi che legga un altro articolo?"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, did you enjoy reading the news of the day?",
+        "italian": "Ti è piaciuto sapere le notizie del giorno?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "TakeAndSendPicture": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can send the picture to your contacts. Please tell me who you want to send the picture to.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can send the picture to your $OPTION1$ and to many others. Please tell me who you want to send the the picture to.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can send the picture to your $OPTION1$, your $OPTION2$ and to many others. Please tell me who you want to send the the picture to.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Send the picture to who?",
+        "italian": "Inviare la foto a chi?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll send the picture to your $KEYWORD$.",
+        "italian": "Va bene, manderò la foto a $KEYWORD$."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to send the picture to your $CONFIRM$?",
+        "italian": "Vuoi che mandi la foto a $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, this person is not in the contact list. Please select an option on my tablet.",
+        "italian": "Scusa, questa persona non è in rubrica. Per favore, seleziona un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "When you are ready for the picture, press the button on my tablet and look at me. I will count up to 3 before shooting.",
+        "italian": "Quando vuoi, premi il tasto sul tablet e guardami. Conterò fino a 3, prima di scattare."
+      },
+      "1": {
+        "english": "",
+        "italian": ""
+      },
+      "2": {
+        "english": "Good! Now please try to stay still.\\pau=1000\\1, \\pau=1000\\2, \\pau=1000\\3.",
+        "italian": "Bene! Ora per favore cerca di non muoverti. \\pau=1000\\1, \\pau=1000\\2, \\pau=1000\\3."
+      },
+      "3": {
+        "english": "Done! I will display it on the tablet!",
+        "italian": "Fatto! La mostrerò sul tablet."
+      },
+      "4": {
+        "english": "Feel free to take your time and watch the picture as long as you want. Then let me know if you want to keep the picture or delete it.",
+        "italian": "Prenditi tutto il tempo che vuoi per guardare la foto. Poi dimmi se vuoi salvarla o eliminarla."
+      },
+      "5": {
+        "english": "Do you want to send the picture to someone?",
+        "italian": "Vuoi mandare la foto a qualcuno?"
+      },
+      "6": {
+        "english": "Do you want to take another one?",
+        "italian": "Vuoi fare un'altra foto?"
+      },
+      "7": {
+        "english": "Sorry, I didn't get it. Do you want to keep or delete it?",
+        "italian": "Scusa, non ho capito. Vuoi salvarla o eliminarla?"
+      },
+      "8": {
+        "english": "Keep or delete?",
+        "italian": "Salva o elimina?"
+      },
+      "9": {
+        "english": "Please, select how do you want to send the picture to your $RECIPIENT$.",
+        "italian": "Per favore, seleziona in che modo vuoi inviare la foto a $RECIPIENT$."
+      },
+      "10": {
+        "english": "Select mode",
+        "italian": "Seleziona il modo"
+      },
+      "11": {
+        "english": "I've just sent the picture to your $RECIPIENT$.",
+        "italian": "Ho appena mandato la foto a $RECIPIENT$."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "SHOOT"
+        ],
+        "italian": [
+          "SCATTA"
+        ]
+      },
+      "keep": {
+        "english": [
+          "keep",
+          "save"
+        ],
+        "italian": [
+          "salva",
+          "tieni",
+          "tener"
+        ]
+      },
+      "delete": {
+        "english": [
+          "delete",
+          "trash"
+        ],
+        "italian": [
+          "elimina",
+          "cancella",
+          "butta"
+        ]
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed taking this picture?",
+        "italian": "Puoi dirmi se ti è piaciuto scattare questa foto?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "ReadMenu": {
+    "ask-parameters": {
+      "0": {
+        "english": "Which meal would you like to know about: $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Su quale pasto vuoi essere informato: $OPTION1$, $OPTION2$ o $OPTION3$?"
+      },
+      "1": {
+        "english": "Can you tell me which meal you would like to know about: $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Puoi dirmi su quale pasto vuoi essere informato: $OPTION1$, $OPTION2$ o $OPTION3$?"
+      },
+      "2": {
+        "english": "Please, tell me which meal you would like to know about: $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Per favore, su quale pasto vuoi essere informato: $OPTION1$, $OPTION2$ o $OPTION3$?"
+      },
+      "3": {
+        "english": "Which meal would you like to know about: $OPTION1$ or $OPTION2$?",
+        "italian": "Su quale pasto vuoi essere informato: $OPTION1$ o $OPTION2$?"
+      },
+      "4": {
+        "english": "Can you tell me which meal you would like to know about: $OPTION1$ or $OPTION2$?",
+        "italian": "Puoi dirmi su quale pasto vuoi essere informato: $OPTION1$ o $OPTION2$?"
+      },
+      "5": {
+        "english": "Please, tell me which meal you would like to know about: $OPTION1$ or $OPTION2$?",
+        "italian": "Per favore, su quale pasto vuoi essere informato: $OPTION1$ o $OPTION2$?"
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which meal?",
+        "italian": "Quale pasto?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll tell you what you can have for $KEYWORD$.",
+        "italian": "Va bene, ti dirò che cosa puoi avere per $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to know what you can have for $CONFIRM$?",
+        "italian": "Vuoi sapere che cosa puoi avere per $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get which meal. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito quale pasto hai scelto. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Today for $MEAL$ you can have: $MENU$.",
+        "italian": "Oggi a $MEAL$ puoi mangiare: $MENU$."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this information useful?",
+        "italian": "Puoi dirmi per favore se hai trovato utile quest'informazione?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "ShowPictures": {
+    "ask-parameters": {},
+    "ask-before-options": {},
+    "parameter-answer": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "ask-confirmation": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "wrong-parameter": {},
+    "other": {
+      "0": {
+        "english": "I will show you all the pictures that we took! Tell me '$STOPKEYWORD$' when you want to quit.",
+        "italian": "Ti faccio vedere le foto che abbiamo scattato! Dimmi '$STOPKEYWORD$' quando vuoi interrompere."
+      },
+      "1": {
+        "english": "That's all $USERNAME$!",
+        "italian": "Non c'è altro $USERNAME$, sono finite!"
+      },
+      "2": {
+        "english": "I hope you liked them!",
+        "italian": "Spero che ti siano piaciute"
+      },
+      "3": {
+        "english": "Sorry but there are no pictures yet.",
+        "italian": "Mi spiace, ma non c'è ancora nessuna foto da vedere."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "stop",
+          "please stop",
+          "exit"
+        ],
+        "italian": [
+          "basta",
+          "per favore basta",
+          "esci"
+        ]
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, did you enjoy watching these pictures?",
+        "italian": "Ti è piaciuto guardare le foto?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "Accompany": {
+    "other": {
+      "0": {
+        "english": "Feel free to take me by the hand. When we arrive, please remember to press the button on my tablet.",
+        "italian": "Prendimi pure per mano. Quando arriviamo, per favore ricordati di premere il tasto sul mio tablet."
+      },
+      "1": {
+        "english": "It was very nice to walk together with you.",
+        "italian": "E' stato bello camminare insieme."
+      },
+      "2": {
+        "english": "Have we arrived?",
+        "italian": "Siamo arrivati?"
+      }
+    },
+    "user": {
+      "0": {
+        "english": "yes",
+        "italian": "sì"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed taking me by the hand?",
+        "italian": "Ti è piaciuto prendermi per mano?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "Fallback": {
+    "other": {
+      "0": {
+        "english": "I'm sorry, I need to rest for a while now. Let's talk again later! Bye bye!",
+        "italian": "Mi spiace, ho bisogno di riposarmi un po' adesso. Parliamo di nuovo più tardi! A presto!"
+      }
+    }
+  },
+  "PlayGameMemory": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can let you play the Memory Game with images related to different topics. Please tell me which topic you want to play about.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can let you play the Memory Game with images related to $OPTION1$ and many other topics. Please tell me which topic you want to play about.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can let you play the Memory Game with images related to $OPTION1$, $OPTION2$ and many other topics. Please tell me which topic you want to play about.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which topic?",
+        "italian": "Quale tema?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, let's play with images of $KEYWORD$.",
+        "italian": "Va bene, giochiamo con le foto a tema $KEYWORD$."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to play with images of $CONFIRM$?",
+        "italian": "Vuoi giocare con le foto a tema $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the topic. Please select an option on my tablet.",
+        "italian": "Scusa, non ho capito il tema. Per favore, seleziona un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Let's play the Memory game!",
+        "italian": "Giochiamo a Memory!"
+      },
+      "1": {
+        "english": "I will show you a picture for a few seconds, then I will ask you a few questions. Let's start!",
+        "italian": "Ti mostrerò una foto per qualche secondo, dopo ti farò alcune domande. Cominciamo!"
+      },
+      "2": {
+        "english": "Are you ready?",
+        "italian": "Sei pronto?"
+      },
+      "3": {
+        "english": "It was fun to play with you!",
+        "italian": "E' stato divertente giocare con te!"
+      },
+      "4": {
+        "english": "That's correct! Well done!",
+        "italian": "Risposta corretta! Bravo!"
+      },
+      "5": {
+        "english": "I'm sorry, the answer is wrong. Let's try again!",
+        "italian": "Mi spiace, la risposta è sbagliata. Riprova!"
+      }
+      ,
+      "6": {
+        "english": "Do you want to play once more?",
+        "italian": "Vuoi giocare ancora?"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, did you enjoy playing this game?" ,
+        "italian": "Puoi dirmi per favore se ti è piaciuto questo gioco?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "MoveCloserFarther": {
+    "parameters":{
+      "english": ["move closer", "move farther", "stay here"],
+      "italian": ["avvicinarmi", "allontanarmi", "star fermo"]
+    },
+    "ask-parameters": {
+      "0": {
+        "english": "Please tell me, should I $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Per piacere, dimmi cosa devo fare: $OPTION1$, $OPTION2$ o $OPTION3$?"
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "What should I do?",
+        "italian": "Cosa devo fare?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I will $KEYWORD$.",
+        "italian": "Va bene, proverò a $KEYWORD$."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to $CONFIRM$?",
+        "italian": "Mi hai chiesto di $CONFIRM$?"
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you said. Please select an option on my tablet.",
+        "italian": "Scusa, non ho capito cosa hai detto. Per favore, seleziona un'opzione sul tablet."
+      }
+    },
+    "other": {}
+  }
+}
