@@ -1,6 +1,6 @@
 # CONTRASTING SENTENCES AS ENGAGEMENT STRATEGY
 This project proposes an alternative version of the ontology used by Pepper Robots in project CARESSES.
-With the aim of studying and improve verbal interactions with people this new version of ontology introduces sentences that contrast the user.
+With the aim of study and improve verbal interactions with people this new version of ontology introduces sentences that contrast the user.
 
 In the CKB folder you will find two ontologies:
 
